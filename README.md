@@ -11,7 +11,7 @@
 ## Data Source:
 ###### The dataset contains two csv files:
 ###### 1.	Employees_info
-2.	Absenteeism_info
+###### 2.	Absenteeism_info
 
 ##### 1.	Employees_info:  This table includes data on individual employees, such as their unique ID, transport expense, distance from home to work, age, number of children, pet ownership, education level, social drinking, social smoking, weight, and height.
 ##### 2.	Absenteeism_info: This table contains data related to employee’s absence, including their ID, reason for absence (coded numerically), month of absence, day of the week, workload average per day, employee target hit, absenteeism time in hours, service time, and disciplinary failure.
