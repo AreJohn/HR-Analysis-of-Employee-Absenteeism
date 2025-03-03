@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Scenario](#Scenario)
+- [Data Source](#Data-Source)
 - [Ask Phase](#Ask-Phase)
 - [Data Cleaning](#Data-Cleaning)
 - [Insights](#Insights)
@@ -522,11 +523,33 @@ HAVING  COUNT(*) = 1
 
 
 ## Recommendations 
-##### 1.	Implement Employee well-being programs that promotes healthy lifestyles including regular exercises and stress management to address health related absenteeism issues.
-##### 2.	Include offering flexible scheduling options or additional support to address Seasonal variations in absenteeism during peak absenteeism months and seasons.
-##### 3.	Encourage healthy behaviors such as increased physical activities, healthy nutrition and offering resources for weight management and smoke cessation.
-##### 4.	Offer support programs for employees with dependents such as childcare and petcare assistance to reduce Pet and Children related Absenteeism.
-##### 5.	Provide training programs such as workshops on time management, communication skills and conflict resolution to help employees manage their responsibilities and reduce absenteeism.
-##### 6.	Review disciplinary policies to address issues such as disregarded disciplinary warnings and incomplete submissions. Provide guidelines for incomplete submissions and consequences for incomplete submissions to ensure compliance and reduce disciplinary related absenteeism.
-##### 7.	Foster a culture of engagement and open communication where employees feel valued, supported and motivated to perform their best. 
+##### 1. Implement Employee Well-being Programs:
+● Introduce health and wellness programs focused on regular exercise, stress management, and preventive care.
+● Provide targeted wellness plans for overweight or obese employees to reduce health-related absenteeism.
+● Implement smoking and alcohol cessation programs for employees at higher risk of absenteeism.
 
+##### 2. Offer Flexible Scheduling During Peak Absenteeism Periods
+● Adjust work schedules during peak absenteeism periods, particularly in March and Spring (183 absences).
+● Implement leave planning strategies to manage absenteeism spikes during Summer, where at-risk employees report higher absences.
+
+##### 3. Encourage Healthy Behaviors and Lifestyle Changes
+● Promote physical activity and weight management initiatives.
+● Provide nutrition guidance to reduce absenteeism linked to poor health.
+● Support employees with smoking and drinking habits through targeted health interventions.
+
+##### 4. Provide Support for Employees with Dependents
+● Offer childcare and pet-care assistance to employees with dependents, who contributed to 109 absences.
+● Implement flexible work arrangements to accommodate employees balancing family responsibilities.
+
+##### 5. Develop Training Programs to Enhance Employee Skills
+● Conduct time management, communication, and conflict resolution workshops to improve employee performance.
+● Provide mentorship programs to enhance workplace discipline and reduce absenteeism from missed deadlines.
+
+##### 6. Review and Strengthen Disciplinary Policies
+● Enforce stricter compliance on submission deadlines and create clear guidelines for incomplete submissions.
+● Address disciplinary warning disregard, particularly among employees with a high school education and low performance scores.
+● Implement structured interventions for employees repeatedly violating policies.
+
+##### 7. Foster an Engaging and Supportive Work Culture
+● Recognize employees with good attendance records to encourage workplace motivation.
+● Engage younger employees to reduce absenteeism on Mondays and Fridays.
