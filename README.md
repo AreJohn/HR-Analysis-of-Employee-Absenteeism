@@ -42,6 +42,7 @@
 
 
 ## Data Cleaning & Processing:
+##### 1. Initial Data Processing
 
 ```sql
 -- Exploring the data
@@ -69,6 +70,7 @@ INNER JOIN [Employee Absenteeism].[dbo].[Employee_info$] AS E
 ON A.ID = E.Employee_ID
 ```
 
+##### 2. Checking for missing values and duplicates
 ```sql
 -- Viewing the new table 
 SELECT *
@@ -82,7 +84,7 @@ WHERE 1-20 IS NULL
 ```
 The data did not contain missing values
 
-1.	Checking for duplicate
+##### 1.	Checking for duplicate
 
 ```sql
 SELECT ID, [Reason for absence], [Month of absence], [Day of the week], [Work load Average/day], [Hit target], [Disciplinary failure],
@@ -95,8 +97,8 @@ HAVING COUNT(*) > 1
 The data does not contain duplicate values
 
 
-2.	Handling categorical data 
-
+2.	Handling categorical data
+##### 2.1 Createa new column from the [Reason for absence] column to convert the numerical data to categorical
 ```sql
 -- Create column Absenteeism_Reason from [Reason for absence]
 ALTER TABLE Absenteeism 
@@ -112,6 +114,7 @@ ELSE 'Unjustified leave'
 END
 ```
 
+##### 2.2 Createa new column from the [Month of absence] column to convert the numerical data to categorical
 ```sql
 -- Create column Months from [Month of absence]
 ALTER TABLE Absenteeism 
@@ -136,6 +139,7 @@ ELSE 'Unknown'
 END
 ```
 
+##### 2.3 Createa new column from the [Day of the week] column to convert the numerical data to categorical
 ```sql
 -- Create column Weekdays from [Day of the week]
 ALTER TABLE Absenteeism 
@@ -154,6 +158,7 @@ ELSE 'Saturday'
 END
 ```
 
+##### 2.4 Createa new column from the [Disciplinary failure] column to convert the numerical data to categorical(Yes / No)
 ```sql
 -- Create column Disciplinary_Status from [Disciplinary failure]
 ALTER TABLE Absenteeism 
@@ -167,6 +172,7 @@ ELSE 'Yes'
 END
 ```
 
+##### 2.5 Createa new column from the [Education] column to convert the numerical data to categorical
 ```sql
 -- Create column Education_Level from [Education]
 ALTER TABLE Absenteeism 
@@ -182,6 +188,7 @@ ELSE 'Master and Doctor'
 END
 ```
 
+##### 2.6 Createa new column from the [Social drinker] column to convert the numerical data to categorical(Yes / No)
 ```sql
 -- Create column Drinker_Status from [Social drinker]
 ALTER TABLE Absenteeism 
@@ -195,6 +202,7 @@ ELSE 'Drinker'
 END   
 ```
 
+##### 2.7 Createa new column from the [Social smoker] column to convert the numerical data to categorical(Yes / No)
 ```sql
 -- Create a new column Smoker_Status from [Social smoker]
 ALTER TABLE Absenteeism 
@@ -208,6 +216,7 @@ ELSE 'Smoker'
 END
 ```
 
+##### 2.8 Createa new column from the [Month of absence] column to convert the numerical data to categorical
 ```sql
 -- Create a new column Season from [Month of absence]
 ALTER TABLE Absenteeism 
@@ -223,6 +232,7 @@ WHEN [Month of absence] BETWEEN 9 AND 11 THEN 'Autumn'
 END
 ```
 
+##### 2.8 Createa new column called BMI(Body Mass Index) from the Weight and Height columns to calculate employees Body Mass Index
 ```sql
 -- Create column BMI by calculating from Weight & Height  
 ALTER TABLE Absenteeism 
@@ -232,6 +242,7 @@ UPDATE Absenteeism
 SET BMI = ROUND(Weight/ ((Height / 100) * (Height / 100)), 2)
 ```
 
+##### 2.9 Createa new column called Health_Status from the BMI column to group employee by their weight(e.g Under weight, Over weight)
 ```sql
 -- Create column Health_Status from BMI  
 ALTER TABLE Absenteeism 
@@ -248,6 +259,7 @@ ELSE 'Underweight'
 END
 ```
 
+##### 3.0 View the clean data
 ```sql
 SELECT *
 FROM Absenteeism
