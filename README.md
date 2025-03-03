@@ -524,32 +524,32 @@ HAVING  COUNT(*) = 1
 
 ## Recommendations 
 ##### 1. Implement Employee Well-being Programs:
-● Introduce health and wellness programs focused on regular exercise, stress management, and preventive care.
-● Provide targeted wellness plans for overweight or obese employees to reduce health-related absenteeism.
-● Implement smoking and alcohol cessation programs for employees at higher risk of absenteeism.
+###### ● Introduce health and wellness programs focused on regular exercise, stress management, and preventive care.
+###### ● Provide targeted wellness plans for overweight or obese employees to reduce health-related absenteeism.
+###### ● Implement smoking and alcohol cessation programs for employees at higher risk of absenteeism.
 
 ##### 2. Offer Flexible Scheduling During Peak Absenteeism Periods
-● Adjust work schedules during peak absenteeism periods, particularly in March and Spring (183 absences).
-● Implement leave planning strategies to manage absenteeism spikes during Summer, where at-risk employees report higher absences.
+###### ● Adjust work schedules during peak absenteeism periods, particularly in March and Spring (183 absences).
+###### ● Implement leave planning strategies to manage absenteeism spikes during Summer, where at-risk employees report higher absences.
 
 ##### 3. Encourage Healthy Behaviors and Lifestyle Changes
-● Promote physical activity and weight management initiatives.
-● Provide nutrition guidance to reduce absenteeism linked to poor health.
-● Support employees with smoking and drinking habits through targeted health interventions.
+###### ● Promote physical activity and weight management initiatives.
+###### ● Provide nutrition guidance to reduce absenteeism linked to poor health.
+###### ● Support employees with smoking and drinking habits through targeted health interventions.
 
 ##### 4. Provide Support for Employees with Dependents
-● Offer childcare and pet-care assistance to employees with dependents, who contributed to 109 absences.
-● Implement flexible work arrangements to accommodate employees balancing family responsibilities.
+###### ● Offer childcare and pet-care assistance to employees with dependents, who contributed to 109 absences.
+###### ● Implement flexible work arrangements to accommodate employees balancing family responsibilities.
 
 ##### 5. Develop Training Programs to Enhance Employee Skills
-● Conduct time management, communication, and conflict resolution workshops to improve employee performance.
-● Provide mentorship programs to enhance workplace discipline and reduce absenteeism from missed deadlines.
+###### ● Conduct time management, communication, and conflict resolution workshops to improve employee performance.
+###### ● Provide mentorship programs to enhance workplace discipline and reduce absenteeism from missed deadlines.
 
 ##### 6. Review and Strengthen Disciplinary Policies
-● Enforce stricter compliance on submission deadlines and create clear guidelines for incomplete submissions.
-● Address disciplinary warning disregard, particularly among employees with a high school education and low performance scores.
-● Implement structured interventions for employees repeatedly violating policies.
+###### ● Enforce stricter compliance on submission deadlines and create clear guidelines for incomplete submissions.
+###### ● Address disciplinary warning disregard, particularly among employees with a high school education and low performance scores.
+###### ● Implement structured interventions for employees repeatedly violating policies.
 
 ##### 7. Foster an Engaging and Supportive Work Culture
-● Recognize employees with good attendance records to encourage workplace motivation.
-● Engage younger employees to reduce absenteeism on Mondays and Fridays.
+###### ● Recognize employees with good attendance records to encourage workplace motivation.
+###### ● Engage younger employees to reduce absenteeism on Mondays and Fridays.
