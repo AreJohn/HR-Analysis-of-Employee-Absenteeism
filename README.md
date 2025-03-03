@@ -2,6 +2,14 @@
 
 ###### Investigated and provided solutions for employee absenteeism at UCI Global. Using SQL, the project identifies key factors and offers recommendations to improve workplace attendance.
 
+## Table of Contents
+- [Introduction](#Introduction)
+- [Scenario](#Scenario)
+- [Ask Phase](#Ask-Phase)
+- [Data Cleaning](#Data-Cleaning)
+- [Insights](#Insights)
+- [Recommendations](#Recommendations)
+
 ## Introduction
 ##### Employee absenteeism presents a significant challenge for organizations, impacting productivity and overall performance. This project seeks to understand absenteeism patterns at UCI Global, aiming to uncover the root causes of underperformance and provide actionable insights for HR interventions. By analyzing a comprehensive dataset, we seek to transform raw data into strategic recommendations for improving workplace attendance and employee well-being.
 
