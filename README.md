@@ -320,7 +320,7 @@ HAVING  COUNT(*) = 1
 ###### ● Implement smoking and alcohol cessation programs for employees at higher risk of absenteeism.
 
 ##### 2. Offer Flexible Scheduling During Peak Absenteeism Periods
-###### ● Adjust work schedules during peak absenteeism periods, particularly in March and Spring (183 absences).
+###### ● Adjust work schedules during peak absenteeism periods, particularly in March and Autumn (186 absences).
 ###### ● Implement leave planning strategies to manage absenteeism spikes during Summer, where at-risk employees report higher absences.
 
 ##### 3. Encourage Healthy Behaviors and Lifestyle Changes
@@ -343,4 +343,4 @@ HAVING  COUNT(*) = 1
 
 ##### 7. Foster an Engaging and Supportive Work Culture
 ###### ● Recognize employees with good attendance records to encourage workplace motivation.
-###### ● Engage younger employees to reduce absenteeism on Mondays and Fridays.
+###### ● Engage younger employees to reduce absenteeism on Tuesday and Wednesdays.
