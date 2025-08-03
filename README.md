@@ -311,7 +311,7 @@ The least reported absenteeism reason was Family-related at 20 reasons, followed
 ##### 9.	Only 2 employees were absent from work once, they are both non-smokers with a high school education level, spending an average of R$118 on transporting expenses and less than hour on average on absenteeism.
 
 ## Featured Visuals
-#### Charts and visualizations to bring the story to life:
+#### Charts and visualizations that bring the story to life:
 [Download the PowerPoint here](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/documents/Abssenteeism%20Presentation.pptx)
 
 ## Recommendations 
