@@ -57,7 +57,7 @@
 ##### ❓ Who is the high-risk employee? → Employee with ID 26 (drinker, smoker, overweight, 5 medical absences)
 ##### ❓ Do caregivers miss more work? → Yes, 53% of absences from those with pets/children
 ##### ❓ What age group is most absent on Fridays? → Eployees in their 20s miss work on midweek particularly Tuesdays & Wednesdays.
-##### ❓ Which season saw highest workload & absences? → Spring
+##### ❓ Which season saw highest workload & absences? → Summer, had the highest average workload but reported the fewest absences.
 
 <details>
 <summary>✔️ View full analysis breakdown here</summary>
@@ -85,7 +85,7 @@ FROM Absenteeism
 SELECT SUM([Absenteeism time in hours]) AS TotalAbsenteeismHours
 FROM Absenteeism
 ```
-**The total absenteeism time is 4421 hours, which is around 184 days.**
+**The total absenteeism time is 4,421 hours, which is around 184 days.**
 
 ##### 4. Month with the highest number of absences
 ```sql
@@ -282,8 +282,8 @@ HAVING  COUNT(*) = 1
 ##### 2.	Absenteeism patterns: 
 ##### •	For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time was 0 hours.
 ##### •	March had the highest number of absences.
-##### •	Spring had the most Absenteeism reported with 183 reasons.
-##### •	Spring had the highest workload on average per day.
+##### •	Autumn had the most Absenteeism reported with 186 reasons.
+##### •	Summer had the highest workload on average per day.
 
 ##### 3.	Reasons for Absenteeism: The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons were overwhelmingly reported at 528 reasons.
 
