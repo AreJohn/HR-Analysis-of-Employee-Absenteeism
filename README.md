@@ -322,7 +322,6 @@ The least reported absenteeism reason was Family-related at 20 reasons, followed
 
 ##### 2. Offer Flexible Scheduling During Peak Absenteeism Periods
 ###### ● Adjust work schedules during peak absenteeism periods, particularly in March and Autumn (186 absences).
-###### ● Implement leave planning strategies to manage absenteeism spikes during Summer, where at-risk employees report higher absences.
 
 ##### 3. Encourage Healthy Behaviors and Lifestyle Changes
 ###### ● Promote physical activity and weight management initiatives.
