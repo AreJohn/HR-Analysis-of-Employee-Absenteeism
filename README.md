@@ -70,7 +70,7 @@
 SELECT COUNT(DISTINCT ID) AS NumberOfEmployes
 FROM Absenteeism
 ```
-There are 36 employees 
+**There are 36 employees**
 
 ##### 2.	What is the total number of Absenteeism Reasons?
 ```sql
