@@ -38,31 +38,13 @@
 ##### 1.	Employees_info:  This table includes data on individual employees, such as their unique ID, transport expense, distance from home to work, age, number of children, pet ownership, education level, social drinking, social smoking, weight, and height.
 ##### 2.	Absenteeism_info: This table contains data related to employee’s absence, including their ID, reason for absence (coded numerically), month of absence, day of the week, workload average per day, employee target hit, absenteeism time in hours, service time, and disciplinary failure.
 
-🧽 Data Cleaning & Transformation
-
-Key data wrangling tasks using SQL:
-
-Task
-
-Description
-
-✅ Join employee & absence datasets
-
-Combined both CSV files into a unified SQL table
-
-✅ Cleaned categorical columns
-
-Translated codes into readable values (e.g., months, days, seasons)
-
-✅ Calculated BMI
-
-Derived BMI & grouped into Health Status
-
-✅ Coded Absence Reasons
-
-Grouped 27 reasons into 4 main categories
-
-📂 View full SQL code: cleaning_script.sql
+## Data Cleaning & Transformation
+#### Key data wrangling tasks using SQL:
+##### 1. Joined employee & absence datasets: Combined both CSV files into a unified SQL table.
+##### 2. Cleaned categorical columns: Translated codes into readable values (e.g., months, days, seasons).
+##### 3. Calculated BMI: Derived BMI & grouped into Health Status.
+##### 4. Coded Absence Reasons: Grouped 27 reasons into 4 main categories.
+###### 📂 View full SQL code: [Employee Absenteeism.sql](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/documents/Employee%20Absenteeism.sql)
 
 <detail/>
 
