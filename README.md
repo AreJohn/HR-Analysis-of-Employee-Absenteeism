@@ -1,8 +1,6 @@
-# HR-Analysis-of-Employee-Absenteeism
+# 📊 HR Analytics: Investigating Employee Absenteeism at UCI Global
 ![absenteeism picture](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/absenteeism.png)
-
-###### Investigated and provided solutions for employee absenteeism at UCI Global. Using SQL, the project identifies key factors and offers recommendations to improve workplace attendance.
-
+##### A data-driven case study uncovering the causes of absenteeism and offering targeted HR interventions using SQL.
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Scenario](#Scenario)
