@@ -486,39 +486,39 @@ HAVING  COUNT(*) = 1
 
 ## Insights 
 ##### 1.	Employees and Absences: 
-###### •	There are 36 employees in total 
-###### •	The total number of absenteeism reported is 612.
-###### •	The total absenteeism time is 4421 hours. Which is around 184 days
+##### •	There are 36 employees in total 
+##### •	The total number of absenteeism reported is 612.
+##### •	The total absenteeism time is 4,421 hours. Which is around 184 days.
 
 ##### 2.	Absenteeism patterns: 
-###### •	For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time was 0 hours.
-###### •	March had the highest number of absences.
-###### •	Spring had the most Absenteeism reported with 183 reasons.
-###### •	Spring had the highest workload average per day.
+##### •	For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time was 0 hours.
+##### •	March had the highest number of absences.
+##### •	Spring had the most Absenteeism reported with 183 reasons.
+##### •	Spring had the highest workload on average per day.
 
 ##### 3.	Reasons for Absenteeism: The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons were overwhelmingly reported at 528 reasons.
 
 ##### 4.	Health related:
-###### •	Medical reasons were the most reported reason for absenteeism accounting for 528 absences.
-###### •	17 employees are classified as overweight and obese.
-###### •	Overweight or obese employees reported 338 absences.
+##### •	Medical reasons were the most reported absenteeism reason at 528 absences accounting for 86% of total absences.
+##### •	15 employees are classified as overweight and obese.
+##### •	Overweight or obese employees reported 303 absences.
 
 ##### 5.	Specific Cases:
-###### •	Employee with ID number 26 is a drinker, smoker and overweight and reporting 5 absences for medical reasons.
-###### •	60% of absences reported by the employee who is a drinker, smoker and overweight were in the summer.
+##### •	Employee with ID number 26 is a drinker, smoker and overweight and reporting 5 absences for medical reasons.
+##### •	3 out of 5 of the absences reported by the employee who is a drinker, smoker and overweight were in the Winter.
 
 ##### 6.	Pet and Children related Absenteeism:
-###### •	8 employees have at least 2 children or one or more pets.
-###### •	employees that have at least 2 children or one or more pets reported absent 109 times
+##### •	21 employees have at least 2 children or at least 2 pets.
+##### •	Employees that have at least 2 children or one or more pets reported absent 326 times and account for 53% of total absences.
 
-##### 7.	Age related: Employees in their 20s report absent more on Mondays and Fridays than other days. 
+##### 7.	Age related: Employees in their 20s report the most absences midweek particularly Tuesdays and Wednesdays than other days. 
 
 ##### 8.	Disciplinary related Absenteeism:
-###### •	19 employees disregarded disciplinary warnings and incomplete submission was the reason resulting in 31 absences.
-###### •	90% of employees who disregarded disciplinary warnings had high school education level.
-###### •	21.4% of employees with a high school education level and a hit target value of less than 90 disregarded disciplinary warning, while 78.5% did not disregard disciplinary warning. 
+##### •	19 employees disregarded disciplinary warnings and incomplete submission was the reason resulting in 31 absences.
+##### •	17 of the employees who disregarded disciplinary warnings had high school education level.
+##### •	21.4% of employees with a high school education level and a hit target value of less than 90 disregarded disciplinary warning, while 78.5% did not disregard disciplinary warning. 
 
-##### 9.	Only 2 employees were absent from work once, they are both non-smokers with a high school education level, spending an average of $118 on transporting expenses and less than hour on average on absenteeism.
+##### 9.	Only 2 employees were absent from work once, they are both non-smokers with a high school education level, spending an average of R$118 on transporting expenses and less than hour on average on absenteeism.
 
 
 ## Recommendations 
@@ -537,7 +537,7 @@ HAVING  COUNT(*) = 1
 ###### ● Support employees with smoking and drinking habits through targeted health interventions.
 
 ##### 4. Provide Support for Employees with Dependents
-###### ● Offer childcare and pet-care assistance to employees with dependents, who contributed to 109 absences.
+###### ● Offer childcare and pet-care assistance to employees with dependents, who contributed to 326 absences.
 ###### ● Implement flexible work arrangements to accommodate employees balancing family responsibilities.
 
 ##### 5. Develop Training Programs to Enhance Employee Skills
