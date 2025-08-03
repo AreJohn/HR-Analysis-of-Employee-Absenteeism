@@ -1,4 +1,4 @@
-# 📊 HR Analytis: Investigating Employee Absenteeism at UCI Global
+# 📊 HR Analytics: Investigating Employee Absenteeism at UCI Global
 
 ![absenteeism picture](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/absenteeism.png)
 
