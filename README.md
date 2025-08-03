@@ -1,23 +1,33 @@
-# 📊 HR Analytics: Investigating Employee Absenteeism at UCI Global
+# 📊 HR Analytis: Investigating Employee Absenteeism at UCI Global
 
 ![absenteeism picture](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/absenteeism.png)
 
 ##### A data-driven case study uncovering the causes of absenteeism and offering targeted HR interventions using SQL.
 
 ## Table of Contents
-- [Introduction](#Introduction)
-- [Scenario](#Scenario)
+- [Project Overview](#Project-Overview)
+- [Business Challenge](#Business-Challenge)
 - [Data Source](#Data-Source)
 - [Ask Phase](#Ask-Phase)
 - [Data Cleaning](#Data-Cleaning)
 - [Insights](#Insights)
 - [Recommendations](#Recommendations)
 
-## Introduction
-##### Employee absenteeism presents a significant challenge for organizations, impacting productivity and overall performance. This project seeks to understand absenteeism patterns at UCI Global, aiming to uncover the root causes of underperformance and provide actionable insights for HR interventions. By analyzing a comprehensive dataset, we seek to transform raw data into strategic recommendations for improving workplace attendance and employee well-being.
+## Project Overview
+##### This project explores employee absenteeism at UCI Global using SQL. The goal was to understand the underlying causes of frequent absences, identify at-risk groups, and offer data-driven HR recommendations to improve attendance and overall performance.
 
-## Scenario
-##### The management of UCI Global seeks to understand the underperformance of its employees over the past six months. As the data analyst, you are expected to use the dataset to derive why employees of different age, educational and health levels are underperforming at work.
+## Business Challenge
+##### UCI Global's management is concerned about rising absenteeism and its impact on productivity. They suspect various factors like health, family demands, and workplace policy issues. As a data analyst, I was tasked with:
+##### •	Identifying absenteeism patterns
+##### •	Profiling high-risk employee groups
+##### •	Recommending HR strategies to improve attendance
+
+## Tools 
+|----|----|
+|Tool | Purpose |
+|SQL | Data cleaning and analysis |
+|Excel | Visual storytelling and charts|
+|PowerPoint | Final storytelling presentation |
 
 ## Data Source:
 ###### The [dataset](https://archive.ics.uci.edu/dataset/445/absenteeism+at+work) contains two csv files:
