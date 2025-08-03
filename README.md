@@ -311,7 +311,7 @@ HAVING  COUNT(*) = 1
 
 ## Featured Visuals
 #### Charts and visualizations to bring the story to life:
-![Download the PowerPoint here](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/documents/Abssenteeism%20Presentation.pptx)
+[Download the PowerPoint here](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/documents/Abssenteeism%20Presentation.pptx)
 
 ## Recommendations 
 ##### 1. Implement Employee Well-being Programs:
