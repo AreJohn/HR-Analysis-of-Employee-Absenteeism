@@ -12,6 +12,7 @@
 - [Data Cleaning & Transformation](#Data-Cleaning-&-Transformation)
 - [Key Questions & Findings](#Key-Questions-&-Findings)
 - [Insights](#Insights)
+- [Featured Visuals](#Featured-Visuals)
 - [Recommendations](#Recommendations)
 
 ## Project Overview
@@ -308,6 +309,9 @@ HAVING  COUNT(*) = 1
 
 ##### 9.	Only 2 employees were absent from work once, they are both non-smokers with a high school education level, spending an average of R$118 on transporting expenses and less than hour on average on absenteeism.
 
+## Featured Visuals
+#### Charts and visualizations to bring the story to life:
+![Download the PowerPoint here](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/documents/Abssenteeism%20Presentation.pptx)
 
 ## Recommendations 
 ##### 1. Implement Employee Well-being Programs:
