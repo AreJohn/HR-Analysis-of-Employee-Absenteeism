@@ -38,6 +38,34 @@
 ##### 1.	Employees_info:  This table includes data on individual employees, such as their unique ID, transport expense, distance from home to work, age, number of children, pet ownership, education level, social drinking, social smoking, weight, and height.
 ##### 2.	Absenteeism_info: This table contains data related to employee’s absence, including their ID, reason for absence (coded numerically), month of absence, day of the week, workload average per day, employee target hit, absenteeism time in hours, service time, and disciplinary failure.
 
+🧽 Data Cleaning & Transformation
+
+Key data wrangling tasks using SQL:
+
+Task
+
+Description
+
+✅ Join employee & absence datasets
+
+Combined both CSV files into a unified SQL table
+
+✅ Cleaned categorical columns
+
+Translated codes into readable values (e.g., months, days, seasons)
+
+✅ Calculated BMI
+
+Derived BMI & grouped into Health Status
+
+✅ Coded Absence Reasons
+
+Grouped 27 reasons into 4 main categories
+
+📂 View full SQL code: cleaning_script.sql
+
+<detail/>
+
 ## Ask Phase
 ##### Questions that will guide my case study:
 ##### 1.	What is the number of employees working at UCI Global?
@@ -62,6 +90,7 @@
 ##### 20.	Which season had the highest workload average per day?
 ##### 21.	  How many employees were only absent from work once, and what similarities do they share?
 
+<detail/>
 
 ## Data Cleaning & Processing:
 ##### 1. Initial Data Processing
