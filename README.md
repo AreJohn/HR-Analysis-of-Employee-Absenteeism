@@ -280,10 +280,9 @@ HAVING  COUNT(*) = 1
 ##### •	The total absenteeism time is 4,421 hours. Which is around 184 days.
 
 ##### 2.	Absenteeism patterns: 
-##### •	For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time was 0 hours.
 ##### •	March had the highest number of absences.
+![seasonal absences](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/seasonal%20absenteeism.png)
 ##### •	Autumn had the most Absenteeism reported with 186 reasons.
-##### •	Summer had the highest workload on average per day.
 
 ##### 3.	Reasons for Absenteeism: 
 ![AbsenteeismReasons](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/absenteeism%20reasons.png)
@@ -300,6 +299,7 @@ The least reported absenteeism reason was Family-related at 20 reasons, followed
 
 ##### 6.	Pet and Children related Absenteeism:
 ##### •	21 employees have at least 2 children or at least 2 pets.
+![care givers](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/care%20givers.png)
 ##### •	Employees that have at least 2 children or one or more pets reported absent 326 times and account for 53% of total absences.
 
 ##### 7.	Age related: Employees in their 20s report the most absences midweek particularly Tuesdays and Wednesdays than other days. 
@@ -307,7 +307,6 @@ The least reported absenteeism reason was Family-related at 20 reasons, followed
 ##### 8.	Disciplinary related Absenteeism:
 ##### •	19 employees disregarded disciplinary warnings and incomplete submission was the reason resulting in 31 absences.
 ##### •	17 of the employees who disregarded disciplinary warnings had high school education level.
-##### •	21.4% of employees with a high school education level and a hit target value of less than 90 disregarded disciplinary warning, while 78.5% did not disregard disciplinary warning. 
 
 ##### 9.	Only 2 employees were absent from work once, they are both non-smokers with a high school education level, spending an average of R$118 on transporting expenses and less than hour on average on absenteeism.
 
