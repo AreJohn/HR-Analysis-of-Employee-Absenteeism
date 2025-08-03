@@ -7,6 +7,7 @@
 ## Table of Contents
 - [Project Overview](#Project-Overview)
 - [Business Challenge](#Business-Challenge)
+- [Tools](#Tools)
 - [Data Source](#Data-Source)
 - [Ask Phase](#Ask-Phase)
 - [Data Cleaning](#Data-Cleaning)
@@ -23,8 +24,8 @@
 ##### •	Recommending HR strategies to improve attendance
 
 ## Tools 
-|----|----|
 |Tool | Purpose |
+|----|----|
 |SQL | Data cleaning and analysis |
 |Excel | Visual storytelling and charts|
 |PowerPoint | Final storytelling presentation |
