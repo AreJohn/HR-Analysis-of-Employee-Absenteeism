@@ -9,10 +9,8 @@
 - [Business Challenge](#Business-Challenge)
 - [Tools](#Tools)
 - [Data Source](#Data-Source)
-- [Ask Phase](#Ask-Phase)
 - [Data Cleaning & Transformation](#Data-Cleaning-&-Transformation)
 - [Key Questions & Findings](#Key-Questions-&-Findings)
-- [Data Cleaning](#Data-Cleaning)
 - [Insights](#Insights)
 - [Recommendations](#Recommendations)
 
@@ -63,7 +61,7 @@
 <details>
 <summary>✔️ View full analysis breakdown here</summary>
 
-## Data Analysis 
+## Full Data Analysis Breakdown
 ##### 1.	What is the number of employees working at UCI Global?
 ```sql
 --1. Total number of employees 
@@ -78,7 +76,7 @@ FROM Absenteeism
 SELECT COUNT(*) AS CountAbsenteeism
 FROM Absenteeism
 ```
-The total number of absences reported is 612
+**The total number of absences reported is 612**
 
 ##### 3. What Total absenteeism time in hours 
 ```sql
@@ -86,7 +84,7 @@ The total number of absences reported is 612
 SELECT SUM([Absenteeism time in hours]) AS TotalAbsenteeismHours
 FROM Absenteeism
 ```
-The total absenteeism time is 4421 hours, which is around 184 days.
+**The total absenteeism time is 4421 hours, which is around 184 days.**
 
 ##### 4. Month with the highest number of absences
 ```sql
@@ -96,7 +94,7 @@ FROM Absenteeism
 GROUP BY Months
 ORDER BY CountAbsenteeismReason
 ```
-March had the highest number of absences
+**March had the highest number of absences**
 
 ##### 5. Season with the highest number of absences
 ```sql
@@ -106,7 +104,7 @@ FROM Absenteeism
 GROUP BY Season
 ORDER BY CountAbsenteeismReason
 ```
-Spring had the most absenteeism reported with 183 absences
+**Autumn had the most absenteeism reported with 183 absences**
 
 ##### 6.	Find out why theres a month with 0
 ```sql
@@ -115,7 +113,7 @@ SELECT [Month of absence], Months, [Absenteeism time in hours], [Reason for abse
 FROM Absenteeism 
 WHERE Season IS NULL
 ```
-For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time in hours is 0 hours 
+**For months that have 0, the reason for absenteeism is incomplete submission and the absenteeism time in hours is 0 hours.**
 
 ##### 7. What was the most reported absenteeism reason?
 ```sql
@@ -124,7 +122,7 @@ FROM Absenteeism
 GROUP BY Absenteeism_Reason
 ORDER BY CountAbsenteeismReason
 ```
-The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons was overwhelmingly reported at 528 reasons.
+**The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons was overwhelmingly reported at 528 reasons.**
 
 ##### 8. How many employees are classified as overweight or obese?
 ```sql
@@ -132,7 +130,7 @@ SELECT COUNT (DISTINCT ID) AS NumberOfEmployees
 FROM Absenteeism
 WHERE Health_Status IN( 'Over weight', 'Obese')
 ```
-17 out of 36 employees are classified as overweight and obese. About 65.38% of employees are classified as overweight and obese
+**17 out of 36 employees are classified as overweight and obese. About 65.38% of employees are classified as overweight and obese.**
 
 ##### 9. How many times did were employees who are overweight and obese report absent?
 ```sql
@@ -140,7 +138,7 @@ SELECT COUNT (*) AS NumberOfEmployees
 FROM Absenteeism
 WHERE Health_Status IN( 'Over weight', 'Obese')
 ```
-Employees that are overweight and obese reported absent 338 times. Employees reported absent around 55.22% of times.
+**Employees that are overweight and obese reported absent 338 times, accounting for 55.22% of of total absences..**
 
 ##### 10. Which employee is a drinker, smoker and overweight? 
 ```sql
@@ -151,7 +149,7 @@ AND Smoker_Status = 'Smoker'
 AND Health_Status = 'Over weight'
 GROUP BY ID
 ```
- Employee with ID number 26 is a drinker, smoker and is overweight. 
+ **Employee with ID number 26 is a drinker, smoker and is overweight.**
 
 ##### 11. How many times did the employee who is a drinker, smoker and overweightvcc absent and what were the reasons?
 ```sql
@@ -166,7 +164,7 @@ AND Health_Status = 'Over weight'
 ) AS UnhealthyEmployees
 GROUP BY Absenteeism_Reason
 ```
-Employee with ID number 26 reported absent 5 times and the absenteeism reason was Medical.
+**Employee with ID number 26 reported absent 5 times and the absenteeism reason was Medical.**
 
 ##### 12. What percentage of the absences reported from the employee in question 9 were in the summer?
 ```sql
@@ -177,7 +175,7 @@ AND Smoker_Status = 'Smoker'
 AND Health_Status = 'Over weight'
 GROUP BY Season
 ```
-60% of absences reported from the employee in question 10 was in the summer
+**60% of absences reported from the employee in question 10 was in the summer**
 
 ##### 13. How many employees have at least 2 children or one or more pets?
 ```sql
@@ -186,7 +184,7 @@ FROM Absenteeism
 WHERE Children >=2
 AND Pet >=1
 ```
--- 8 employees have at least 2 children or one or more pets
+**21 employees have at least 2 children or one or more pets.**
 
 ##### 14. How many times did employees that have at least 2 children or one or more pets report absent?
 ```sql
@@ -195,7 +193,7 @@ FROM Absenteeism
 WHERE Children >=2
 AND Pet >=1
 ```
-Employees that have at least 2 children or one or more pets reported absent 109 times. They reported absent around 17.81% of the time.
+**Employees that have at least 2 children or one or more pets reported absent 326 times. They account for 53% of total absences.**
 
 ##### 15. Do Employees in their 20s report absent more times on Mondays and Fridays than on other days?
 ```sql
@@ -209,7 +207,7 @@ FROM Absenteeism
 WHERE Age BETWEEN 20 AND 29
 AND Weekdays  IN ('Tuesday', 'Wednesday', 'Thursday')
 ```
-Employees in their 20s report the most absences midweek particularly Tuesdays and Wednesdays than other days. 
+**Employees in their 20s report the most absences midweek particularly Tuesdays and Wednesdays than other days.**
 
 ##### 16. How many employees disregarded disciplinary warnings, and what was the reason for their absence?
 ```sql
@@ -227,7 +225,7 @@ FROM Absenteeism
 WHERE Disciplinary_Status = 'Yes'
 GROUP BY Absenteeism_Reason 
 ```
-Employees that disregarded disciplinary warnings reported for absence 31 times and Incomplete submission was the reason.
+**Employees that disregarded disciplinary warnings reported for absence 31 times and Incomplete submission was the reason.**
 
 ##### 18. What percentage of the employees that disregarded disciplinary warnings have a high school education level?
 ```sql
@@ -236,7 +234,7 @@ FROM Absenteeism
 WHERE Disciplinary_Status = 'Yes'
 GROUP BY Absenteeism_Reason, Education_Level
 ```
-90% of employees that disregarded disciplinary warnings had high school education
+**90% of employees that disregarded disciplinary warnings had high school education**
 
 ##### 19. Did employees with a high school education level and a hit target value of less than 90 disregard disciplinary warnings?
 ```sql
@@ -250,7 +248,7 @@ WHERE Education_Level = 'High School'
 WHERE [Hit target] < 90
 GROUP BY Disciplinary_Status, Education_Level
 ```
-78.5% employees with a high school education level and a hit target value of less than 90 did not disregard warning while, 21.4% disregard warning
+**78.5% employees with a high school education level and a hit target value of less than 90 did not disregard warning while, 21.4% disregard warning**
 
 ##### 20.  Which season had the highest workload average per day?
 ```sql
@@ -259,7 +257,7 @@ FROM Absenteeism
 GROUP BY Season, [Work load Average/day]
 ORDER BY [Work load Average/day] DESC
 ```
-Spring had the highest workload average per day
+**Summer had the highest workload average per day.**
 
 ##### 21.  How many employees were only absent from work once, and what similarities do they share?
 ```sql
@@ -271,235 +269,8 @@ FROM Absenteeism
 GROUP BY ID, Education_Level,  Drinker_Status, Smoker_Status, Health_Status
 HAVING  COUNT(*) = 1
 ```
-2 employees were absent from work only once, they are both high school education level, non-smokers, on average they spend $118 on transporting expenses and on average they spend less than hour on absenteeism.
+**Only 2 employees were absent from work only once, they are both high school education level, non-smokers, on average they spend $118 on transporting expenses and on average they spend less than hour on absenteeism.**
 </details>
-
-## Data Cleaning & Processing:
-##### 1. Initial Data Processing
-
-```sql
--- Exploring the data
-SELECT *
-FROM [Employee Absenteeism]..[Absenteeisms$]
-
-SELECT *
-FROM [Employee Absenteeism]..Employee_info$
-```
-
-```sql
--- Joining both columns
-SELECT *
-FROM [Employee Absenteeism]..[Absenteeisms$] AS A
-INNER JOIN [Employee Absenteeism]..[Employee_info$] AS E
-ON A.ID = E.Employee_ID
-```
-
-```sql
--- Create a new table called Absenteeism by joining [Employee Absenteeism] and [Employee_info$]
-SELECT *
-INTO Absenteeism 
-FROM [Employee Absenteeism].[dbo].[Absenteeisms$] AS A
-INNER JOIN [Employee Absenteeism].[dbo].[Employee_info$] AS E
-ON A.ID = E.Employee_ID
-```
-
-##### 2. Checking for missing values and duplicates
-```sql
--- Viewing the new table 
-SELECT *
-FROM
-Absenteeism
-
--- Checking for missing values
-SELECT *
-FROM Absenteeism
-WHERE 1-20 IS NULL
-```
-The data did not contain missing values
-
-##### 1.	Checking for duplicate
-
-```sql
-SELECT ID, [Reason for absence], [Month of absence], [Day of the week], [Work load Average/day], [Hit target], [Disciplinary failure],
-[Absenteeism time in hours], [Service time], COUNT(*) AS duplicate_count
-FROM Absenteeism
-GROUP BY ID, [Reason for absence], [Month of absence], [Day of the week], [Work load Average/day], [Hit target], [Disciplinary failure],
-[Absenteeism time in hours], [Service time]
-HAVING COUNT(*) > 1
-```
-The data does not contain duplicate values
-
-
-2.	Handling categorical data
-##### 2.1 Createa new column from the [Reason for absence] column to convert the numerical data to categorical
-```sql
--- Create column Absenteeism_Reason from [Reason for absence]
-ALTER TABLE Absenteeism 
-ADD Absenteeism_Reason VARCHAR(50)
-
-UPDATE Absenteeism
-SET Absenteeism_Reason =
-CASE
-WHEN [Reason for absence] = 0 THEN 'Incomplete submission'
-WHEN [Reason for absence] BETWEEN 1 AND 4 THEN 'Family-related'
-WHEN [Reason for absence] IN (5, 6, 7, 8, 9, 10 , 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28) THEN 'Medical reasons'
-ELSE 'Unjustified leave'
-END
-```
-
-##### 2.2 Createa new column from the [Month of absence] column to convert the numerical data to categorical
-```sql
--- Create column Months from [Month of absence]
-ALTER TABLE Absenteeism 
-ADD Months VARCHAR(50)
-
-UPDATE Absenteeism
-SET Months =
-CASE [Month of absence]
-WHEN 1 THEN 'January'
-WHEN 2 THEN 'February'
-WHEN 3 THEN 'March'
-WHEN 4 THEN 'April'
-WHEN 5 THEN 'May'
-WHEN 6 THEN 'June'
-WHEN 7 THEN 'July'
-WHEN 8 THEN 'August'
-WHEN 9 THEN 'September'
-WHEN 10 THEN 'October'
-WHEN 11 THEN 'November'
-WHEN 12 THEN 'December'
-ELSE 'Unknown'
-END
-```
-
-##### 2.3 Createa new column from the [Day of the week] column to convert the numerical data to categorical
-```sql
--- Create column Weekdays from [Day of the week]
-ALTER TABLE Absenteeism 
-ADD Weekdays VARCHAR(50)
-
-UPDATE Absenteeism
-SET Weekdays =
-CASE [Day of the week]
-WHEN 1 THEN 'Sunday'
-WHEN 2 THEN 'Monday'
-WHEN 3 THEN 'Tuesday'
-WHEN 4 THEN 'Wednesday'
-WHEN 5 THEN 'Thursday'
-WHEN 6 THEN 'Friday'
-ELSE 'Saturday'
-END
-```
-
-##### 2.4 Createa new column from the [Disciplinary failure] column to convert the numerical data to categorical(Yes / No)
-```sql
--- Create column Disciplinary_Status from [Disciplinary failure]
-ALTER TABLE Absenteeism 
-ADD Disciplinary_Status VARCHAR(50)
-
-UPDATE Absenteeism
-SET Disciplinary_Status =
-CASE [Disciplinary failure]
-WHEN 0 THEN 'No'
-ELSE 'Yes'
-END
-```
-
-##### 2.5 Createa new column from the [Education] column to convert the numerical data to categorical
-```sql
--- Create column Education_Level from [Education]
-ALTER TABLE Absenteeism 
-ADD Education_Level VARCHAR(50)
-
-UPDATE Absenteeism
-SET Education_Level =
-CASE [Education]
-WHEN 1 THEN 'High School'
-WHEN 2 THEN 'Graduate'
-WHEN 3 THEN 'Postgraduate'
-ELSE 'Master and Doctor'
-END
-```
-
-##### 2.6 Createa new column from the [Social drinker] column to convert the numerical data to categorical(Yes / No)
-```sql
--- Create column Drinker_Status from [Social drinker]
-ALTER TABLE Absenteeism 
-ADD Drinker_Status VARCHAR(50)
-
-UPDATE Absenteeism
-SET Drinker_Status =
-CASE [Social drinker]
-WHEN 0 THEN 'Non-drinker'
-ELSE 'Drinker'
-END   
-```
-
-##### 2.7 Createa new column from the [Social smoker] column to convert the numerical data to categorical(Yes / No)
-```sql
--- Create a new column Smoker_Status from [Social smoker]
-ALTER TABLE Absenteeism 
-ADD Smoker_Status VARCHAR(50)
-
-UPDATE Absenteeism
-SET Smoker_Status =
-CASE [Social smoker]
-WHEN 0 THEN 'Non-smoker'
-ELSE 'Smoker'
-END
-```
-
-##### 2.8 Createa new column from the [Month of absence] column to convert the numerical data to categorical
-```sql
--- Create a new column Season from [Month of absence]
-ALTER TABLE Absenteeism 
-ADD Season VARCHAR(50)
-
-UPDATE Absenteeism
-SET Season =
-CASE 
-WHEN [Month of absence] IN (12, 1, 2) THEN 'Winter'
-WHEN [Month of absence] BETWEEN 3 AND 5 THEN 'Spring'
-WHEN [Month of absence] BETWEEN 6 AND 8 THEN 'Summer'
-WHEN [Month of absence] BETWEEN 9 AND 11 THEN 'Autumn'
-END
-```
-
-##### 2.8 Createa new column called BMI(Body Mass Index) from the Weight and Height columns to calculate employees Body Mass Index
-```sql
--- Create column BMI by calculating from Weight & Height  
-ALTER TABLE Absenteeism 
-ADD BMI FLOAT(50)
-
-UPDATE Absenteeism
-SET BMI = ROUND(Weight/ ((Height / 100) * (Height / 100)), 2)
-```
-
-##### 2.9 Createa new column called Health_Status from the BMI column to group employee by their weight(e.g Under weight, Over weight)
-```sql
--- Create column Health_Status from BMI  
-ALTER TABLE Absenteeism 
-ADD Health_Status VARCHAR(50)
-
-UPDATE Absenteeism
-SET Health_Status =
-CASE 
-WHEN BMI < 18.5 THEN 'Under weight'
-WHEN BMI <= 24.9 THEN 'Healthy weight'
-WHEN BMI <= 29.9 THEN 'Over weight'
-WHEN BMI >=  30.0 THEN 'Obese'
-ELSE 'Underweight'
-END
-```
-
-##### 3.0 View the clean data
-```sql
-SELECT *
-FROM Absenteeism
-```
-
-
-
 
 ## Insights 
 ##### 1.	Employees and Absences: 
