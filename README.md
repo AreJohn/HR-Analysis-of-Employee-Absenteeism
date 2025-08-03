@@ -285,7 +285,9 @@ HAVING  COUNT(*) = 1
 ##### •	Autumn had the most Absenteeism reported with 186 reasons.
 ##### •	Summer had the highest workload on average per day.
 
-##### 3.	Reasons for Absenteeism: The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons were overwhelmingly reported at 528 reasons.
+##### 3.	Reasons for Absenteeism: 
+![AbsenteeismReasons](https://github.com/AreJohn/HR-Analysis-of-Employee-Absenteeism/blob/main/assets/images/absenteeism%20reasons.png)
+The least reported absenteeism reason was Family-related at 20 reasons, followed by unjustified leave at 30 reasons then incomplete submission at 34 reasons while medical reasons were overwhelmingly reported at 528 reasons.
 
 ##### 4.	Health related:
 ##### •	Medical reasons were the most reported absenteeism reason at 528 absences accounting for 86% of total absences.
